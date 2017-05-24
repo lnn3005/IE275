@@ -1,0 +1,130 @@
+body {
+    background-image:url('hanoi.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:arial;
+}
+/*div.global_nav
+{
+height:40px;
+background-color:black;
+top:0px;
+}*/
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+div.panel {
+    background-color:#F5FFFF;
+    border-radius:3px;
+    width:250px;
+    padding: 10px 10px 10px 10px;
+    line-height:200%;
+	border: 1px solid #00FFFF;
+}
+#login_panel {
+    margin-top:100px;
+    margin-bottom:20px;
+    padding-top:10px;
+}
+input.fill {
+    width:235px;
+    padding:7px 7px 7px 7px;
+    border-radius:5px;
+    border: 1px solid #85FFFF;
+}
+input.button {
+    width:60px;
+    height:30px;
+    border-radius:5px;
+    background-color:#3399FF;
+    border: 1px solid #CAE6CA;
+    color:#ffffff;
+    font-family:trebuchet ms;
+    font-weight:bold;
+}
+#signup_button {
+    background-color:#FF9900;
+    width:125px;
+}
+#signin_button:hover, #signin_button:active {
+    background-color:#5CADFF;
+}
+#signup_button:hover, #signup_button:active {
+    background-color:#FFAD33
+}
+form {
+    font-size:12px;
+    color:#B2B2B2;
+}
+#forgot_password {
+    color: #B2B2B2;
+}
+#welcome_panel {
+    text-align:right;
+    color:#ffffff;
+    font-family:arial;
+    font-size:30px;
+    width:600px;
+}
+#welcome_message {
+    font-weight:bold;
+}
+/*.button
+{
+//padding-top:10px;
+//padding-bottom:10px;
+border-radius:5px;
+font-size:20px;
+border: 1px solid #CAE6CA;
+background-color:#6699FF;
+width:300px;
+color:#ffffff;
+font-family:Papyrus;
+font-weight:bold;
+}
+.button:hover,.button:active
+{
+background-color:#94B8FF;
+}
+#i
+{
+width:583px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+border: 1px solid #CAE6CA;
+font-size:20px;
+border-radius:5px;
+font-family:Papyrus;
+font-weight:bold;
+}
+table
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+}
+#result
+{
+width:583px;
+height:25px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+//border: 1px solid #CAE6CA;
+font-size:20px;
+border-radius:5px;
+font-family:Papyrus;
+font-weight:bold;
+}
+#head
+{
+color:#6699FF;
+padding-bottom:20px;
+font-size:50px;
+text-align:center;
+}
+*/

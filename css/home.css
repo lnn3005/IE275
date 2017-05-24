@@ -1,0 +1,24 @@
+#profile{
+    background-color:#F5FFFF;
+    border-radius:10px;
+    width:200px;
+    padding: 10px 10px 10px 10px;
+    line-height:200%;
+	border: 1px solid #00FFFF;
+	margin-left:50px;
+	margin-top:50px;
+	}
+#username {
+    font-family:trebuchet ms;
+    font-weight:bold;
+	font-size:25px;
+	margin-bottom:10px;
+	}
+#information {
+    margin-top:10px;
+	font-family:trebuchet ms;
+	}
+/*image {
+    width:"250";
+	height:"250";
+	}*/

@@ -1,0 +1,135 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.5
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 08, 2013 at 10:45 PM
+-- Server version: 5.5.29
+-- PHP Version: 5.4.10
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `my_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `CrosswordClues`
+--
+
+CREATE TABLE `CrosswordClues` (
+  `AcrossClueNo` varchar(3) NOT NULL,
+  `AcrossClue` varchar(40) NOT NULL,
+  `DownClueNo` varchar(3) NOT NULL,
+  `DownClue` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `CrosswordClues`
+--
+
+INSERT INTO `CrosswordClues` (`AcrossClueNo`, `AcrossClue`, `DownClueNo`, `DownClue`) VALUES
+('1', 'Grid great Grier', '1', 'Steak tartare need'),
+('6', 'New issuances, for short', '2', '1887 Verdi opera'),
+('10', 'Frequently', '3', '"Already?"'),
+('13', 'Observe Yom Kippur', '4', 'M.D.''s specialty'),
+('14', 'Author Zora ___ Hurston', '5', 'Slangy approvals'),
+('16', 'Break down', '6', 'One way to pay'),
+('17', 'Disoriented 1949 musical?', '7', 'Kennedy Library architect'),
+('19', '___ pro nobis', '8', 'Palooka'),
+('20', '"Telephone Line" grp.', '9', 'Divvy'),
+('21', 'Music store selection', '10', 'Mario Lanza favorite'),
+('22', 'Place for brewskis', '11', 'Tip off'),
+('24', 'Hardly five-star fare', '12', 'Alpine transport'),
+('26', 'Grenoble''s river', '15', '"The Name of the Rose" author'),
+('29', 'VCR button: Abbr.', '18', 'Curly-tailed dog'),
+('30', 'Disoriented advice, once?', '23', 'Dot follower'),
+('34', 'Soup bit', '25', 'The Swiss Guards him'),
+('35', 'Really big show', '27', 'Mask feature'),
+('36', 'Cork locale: Abbr.', '28', 'Classic theater name'),
+('37', 'Coolidge''s veep', '31', 'Do course work?'),
+('40', 'Not making eye contact, say', '32', '"___ I can help it!"'),
+('41', 'Delmonico alternative', '33', 'Society page word'),
+('43', 'Plug extension?', '37', 'Female goat'),
+('44', 'Where Canton is', '38', 'Menu option'),
+('46', 'Cruet filler', '39', 'Place to come clean?'),
+('47', 'Disoriented 1979 Nick Nolte movie?', '40', 'Rural structure'),
+('53', '"Evita" role', '42', 'Totally botch'),
+('54', 'Holiday numbers', '45', 'Harrison Ford role'),
+('55', 'Muted effect', '46', 'Bone: Prefix'),
+('56', 'Noble partner', '48', 'British P.M.''s house number'),
+('58', 'Vigor', '49', 'Top dogs'),
+('60', 'Green, in a way', '50', 'Like lotteries'),
+('61', 'Treasure of the Sierra Madre', '51', 'Pluck'),
+('62', 'Disoriented Steinbeck novel?', '52', 'Opened wide'),
+('66', 'Platte River people', '56', 'Insensitive sort'),
+('67', '"The Nutcracker" girl', '57', 'Emergency key'),
+('68', 'Got stage fright', '59', '"All gone!"'),
+('69', 'Dreamy state?', '63', 'Walter Reuther''s org.'),
+('70', 'Has chits out', '64', 'Due follower'),
+('71', 'Like tournament chess games', '65', '"___ tu"');
+
+
+-- phpMyAdmin SQL Dump
+-- version 3.5.5
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 08, 2013 at 10:46 PM
+-- Server version: 5.5.29
+-- PHP Version: 5.4.10
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `my_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `CrossWordSolution`
+--
+
+CREATE TABLE `CrossWordSolution` (
+  `1` varchar(1) NOT NULL,
+  `2` varchar(1) NOT NULL,
+  `3` varchar(1) NOT NULL,
+  `4` varchar(1) NOT NULL,
+  `5` varchar(1) NOT NULL,
+  `6` varchar(1) NOT NULL,
+  `7` varchar(1) NOT NULL,
+  `8` varchar(1) NOT NULL,
+  `9` varchar(1) NOT NULL,
+  `10` varchar(1) NOT NULL,
+  `11` varchar(1) NOT NULL,
+  `12` varchar(1) NOT NULL,
+  `13` varchar(1) NOT NULL,
+  `14` varchar(1) NOT NULL,
+  `15` varchar(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `CrossWordSolution`
+--
+
+INSERT INTO `CrossWordSolution` (`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `13`, `14`, `15`) VALUES
+('R', 'O', 'S', 'E', 'Y', '2', 'I', 'P', 'O', 'S', '2', '2', 'O', 'F', 'T'),
+('A', 'T', 'O', 'N', 'E', '2', 'N', 'E', 'A', 'L', 'E', '2', 'S', 'O', 'B'),
+('W', 'E', 'S', 'T', 'P', 'A', 'C', 'I', 'F', 'I', 'C', '2', 'O', 'R', 'A'),
+('E', 'L', 'O', '2', 'S', 'K', 'A', '2', '2', 'C', 'O', 'O', 'L', 'E', 'R'),
+('G', 'L', 'O', 'P', '2', 'I', 'S', 'E', 'R', 'E', '2', 'R', 'E', 'W', '2'),
+('G', 'O', 'N', 'O', 'R', 'T', 'H', 'Y', 'O', 'U', 'N', 'G', 'M', 'A', 'N'),
+('2', '2', '2', 'P', 'E', 'A', '', 'E', 'X', 'P', 'O', '', 'I', 'R', 'E'),
+('D', 'A', 'W', 'E', 'S', '2', 'S', 'H', 'Y', '2', 'T', 'B', 'O', 'N', 'E'),
+('O', 'L', 'A', '2', 'O', 'H', 'I', 'O', '2', 'O', 'I', 'L', '2', '2', '2'),
+('E', 'A', 'S', 'T', 'D', 'A', 'L', 'L', 'A', 'S', 'F', 'O', 'R', 'T', 'Y'),
+('2', 'C', 'H', 'E', '', 'N', 'O', 'E', 'L', 'S', '2', 'W', 'A', 'W', 'A'),
+('B', 'A', 'R', 'N', 'E', 'S', '2', '2', 'P', 'E', 'P', '2', 'N', 'E', 'W'),
+('O', 'R', 'O', '2', 'S', 'O', 'U', 'T', 'H', 'O', 'F', 'E', 'D', 'E', 'N'),
+('O', 'T', 'O', '2', 'C', 'L', 'A', 'R', 'A', '2', 'F', 'R', 'O', 'Z', 'E'),
+('R', 'E', 'M', '2', '2', 'O', 'W', 'E', 'S', '2', 'T', 'I', 'M', 'E', 'D');
